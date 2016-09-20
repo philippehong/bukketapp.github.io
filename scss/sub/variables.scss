@@ -1,0 +1,36 @@
+// GENERAL LAYOUT VARIABLES
+// ============================================
+
+
+// Fonts
+// --------------------------------------------
+$font-family-base           : 'Omnes', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-size-base             : 16px;
+$text-biggest               : 48px;
+$text-h2                    : 36px;
+$text-subheader             : 24px;
+$text-info                  : 20px;
+
+// Colours
+// --------------------------------------------
+$primary                    : #14C1EF;
+$secondary                  : #FEF410;
+$dark-blue                  : #1866A4;
+
+
+// GREY
+// --------------------------------------------
+$grey-light                 : #C5CFD6;
+$grey-semilight             : #8D99A0;
+$black                      : #303E47;
+
+
+// RESPONSIVE
+// --------------------------------------------
+$screen-xs-min              : 320px;
+$screen-xs-max              : 768px;
+$screen-sm-min              : 769px;
+$screen-sm-max              : 992px;
+$screen-md-min              : 993px;
+$screen-md-max              : 1199px;
+$screen-lg-min              : 1200px;

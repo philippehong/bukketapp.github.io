@@ -1,0 +1,19 @@
+/* IMPORTANT :
+* ===================================================================================================
+* DON'T EDIT ANY CODE HERE, JUST LEAVE IT.
+*
+* You may edit the default color scheme.
+* You may change the variable value inside the _variables.SCSS file and re-compiling using this file.
+*
+* If you make changes directly in the CSS and/ or SCSS-files from Nifty,
+* it will be hard to update if I release an update. So I would recommend to create a new CSS/ SCSS-file for this purpose.
+*/
+
+
+
+@import "sub/variables";
+@import "sub/general";
+@import "sub/fonts";
+@import "sub/main";
+@import "sub/nav";
+

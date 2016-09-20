@@ -1,0 +1,40 @@
+// NAVIGATION
+
+header#header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  .logo {
+    position: absolute;
+    left: 36px;
+    top: 25px;
+    span {
+      font-size: 24px;
+      color: #FFFFFF;
+      letter-spacing: 0px;
+      font-weight: bold;
+      margin-left: 10px;
+      @media (max-width: $screen-xs-max){
+        display: none;
+      }
+    }
+  }
+  .main-nav {
+    position: absolute;
+    right: 40px;
+    top: 0;
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+        padding: 30px 10px;
+        display: inline-block;
+        list-style-type: none;
+        a {
+          color: white;
+        }
+      }
+    }
+  }
+}
